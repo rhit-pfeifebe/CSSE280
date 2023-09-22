@@ -1,0 +1,50 @@
+
+
+body {
+    font-size: 35px;
+    font-family: serif;
+    background-color: rgb(255, 196, 234);
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: var(--color-1);
+}
+
+#size {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(22, 19, 19);
+    font-size: 35;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        background-color: #b221e6;;
+        
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        background-color: #52b788;
+        
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        background-color: #fff1e6;
+
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        background-color: #b7526f;
+    }
+}
